@@ -1,0 +1,6 @@
+.profile-page{
+ padding: 5px;
+ height: 100%;
+ display: grid;
+ grid-template-columns: 18rem 1fr 10rem;
+}

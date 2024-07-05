@@ -1,0 +1,68 @@
+.heading {
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+  color: #685e5e;
+}
+.followerCard {
+  width: 100%;
+  flex-grow: 1;
+  border-radius: 1rem;
+  
+  padding: 10px 15px;
+}
+.follower {
+  display: flex;
+  justify-content: space-around;
+}
+.user-info {
+  text-align: center;
+}
+.follow-people-image {
+  width: 70px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.follow-people {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 10px 0;
+}
+.bolder {
+  font-weight: bolder;
+}
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.button button {
+  flex-grow: 1;
+  border-radius: 0.545rem;
+  border: none;
+  flex-basis: 1;
+  padding: 10px 5px;
+}
+.button button:first-child {
+  background: #f2247af2;
+  color: white;
+}
+.button button:last-child {
+  background: #531ef1;
+  color: white;
+}
+.button button:first-child:hover {
+  border: 2px solid #5724f2;
+  background: transparent;
+  color: black;
+  transform: scale(1.001);
+}
+.button button:last-child:hover {
+  border: 2px solid #0963eb;
+  background: transparent;
+  color: black;
+}

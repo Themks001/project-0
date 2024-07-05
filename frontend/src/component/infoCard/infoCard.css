@@ -1,0 +1,23 @@
+.info-card{
+ background: rgba(255, 255, 255, .4);
+ height: 300px;
+ border-radius: 10px;
+
+ box-sizing: border-box;
+ padding: 10px;
+}
+.heading-info-card{
+ display: flex;
+ justify-content: space-between;
+ font-weight: bolder;
+ margin: 30px;
+}
+.info{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 3px 20px;
+}
+.bold{
+ font-weight: bold;
+}
